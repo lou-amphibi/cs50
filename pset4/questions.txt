@@ -1,0 +1,19 @@
+0.  BMP - 256 (deep color 1-4-8-16-24-32 bit), GIF - 256 + ghost (deep color 8 bit), JPEG - 256 (deep color 24 bit), PNG - 256 (deep color 48 bit)
+1.  GIF
+2.  Using compression, we lose some data and reduce the color depth. Lossless compression maintains quality, Lossy compression leads to quality loss, but allows you to compress the file more
+3.  JPEG is lossy compression format
+4.  Special code 0xE5, and the chain of file clusters in the allocation table is reset
+5.  Overwrite memory with new information
+6.  Заголовочный файл, в котором объявлены целочисленные типы для структуры файла и макросы
+7.  Это типы данных для работы со структурыми файла, 8 битовый целочисленный для ргбтриплов, остальные для метаданных
+8.  8, 32, 32, 16 битов
+9.  Подписью файла, которые указывают на формат изображения 4D42/424D
+10. bfsize относится к структуре заголовка, а bisize к структуре формата изображения, bisize - число байтов, необходимое для структуры
+11. Начало координат изображения - левый верхний угол
+12. biBitCount
+13. В случае, если места для создания файла в системе нет
+14. Потому что мы считываем один объект из файла, те все параметры двух заголовков
+15. Определяет, кратно ли 4 количество пикселей в строке и выясняет, нужны ли нулевые отступы
+16. Устанавливает указатель в файле на нужный нам байт
+17. Позиция отсчета fseek от текущей позиции указателя в файле
+18. Рикроллед
